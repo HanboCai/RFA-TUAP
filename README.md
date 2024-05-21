@@ -6,11 +6,8 @@
 <p align="center">
 Code release and supplementary materials for:</br>
   <b>"Clean-Label Backdoor Attack Based on Robust Feature Attenuation for Speech Recognition Software"</b></br>
-    
+    <a href=""><img src="img/pipeline.jpg" alt="Logo" width=80%></a>
   </p>
-<center>
-<a href=""><img src="img/pipeline.jpg" alt="Logo" width=80%></a>
-</center>
 
 ## Repo structure
 - `download_speech_commands_dataset.sh`: Download and unzip dataset.
