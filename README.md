@@ -38,8 +38,8 @@ Code release and supplementary materials for:</br>
 - To extract features from benign training data: python transform.py
 - To train a benign model to verify the benign accuracy: python train.py
 - Select candidate samples for poisoning based on the benign model: python posion_selection.py
-- Trigger generation: python TUAP-low_freq.py
-- To attenuation the robust features in samples: python Feature_attenuation.py
+- Trigger generation: python TUAP-low_freq.py (You need to place the npy feature files extracted from the benign test dataset into the ./dataset/TUAP folder.)
+- To attenuation the robust features in samples: python Feature_attenuation.py (You should copy the original audio under the target label to the /datasets/poison_selection/left directory.)
 - Backdoor injection: data_poison.py
 - To extract features from poison training data: python poison_sample_transform.py
 - Backdoor training: python backdoor_train.py
