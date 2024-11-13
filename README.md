@@ -23,7 +23,6 @@ Code release and supplementary materials for:</br>
 ## Dependencies
 - python=3.8.13
 - pytorch=1.12.0
-- torch=
 - librosa=0.9.1
 - pyyaml=6.0
 - tensorboard=2.9.1
